@@ -6,6 +6,7 @@
 
 N=$1
 limit=32
+
 if [ $# -ge 2 ] && [ $2 == "-d" ]; then
 # if we need decimal output, limit N to be 16
     limit=16
